@@ -1,0 +1,142 @@
+{
+  "name": "Banjara Language Translator",
+  "version": "1.0.0",
+  "description": "बंजारा (गोर बोली/पारसी/लंबाड़ी) भाषा अनुवादक - विश्व की 100+ भाषाओं में अनुवाद करें",
+  "author": "Ajay Singh Chouhan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ajaysingh132/banjara-translator-.git"
+  },
+  "keywords": [
+    "banjara",
+    "translator",
+    "lambadi",
+    "gourboli",
+    "language",
+    "भाषा",
+    "अनुवादक",
+    "भारतीय भाषा"
+  ],
+  "bugs": {
+    "url": "https://github.com/ajaysingh132/banjara-translator-/issues"
+  },
+  "homepage": "https://github.com/ajaysingh132/banjara-translator-",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "npx http-server",
+    "test": "echo \"No tests defined yet\"",
+    "build": "echo \"No build process defined\""
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "features": [
+    "Banjara to 100+ Languages Translation",
+    "100+ Languages to Banjara Translation",
+    "Interactive Grammar Guide",
+    "Comprehensive Dictionary",
+    "Dark Mode Support",
+    "Responsive Design",
+    "Offline Support (with cached data)",
+    "Keyboard Shortcuts"
+  ],
+  "supportedLanguages": [
+    {
+      "code": "bnj",
+      "name": "बंजारा (Banjara)",
+      "nativeName": "बंजारा",
+      "description": "गोर बोली, पारसी, लंबाड़ी"
+    },
+    {
+      "code": "hi",
+      "name": "हिंदी (Hindi)",
+      "nativeName": "हिंदी"
+    },
+    {
+      "code": "en",
+      "name": "English",
+      "nativeName": "English"
+    },
+    {
+      "code": "mr",
+      "name": "मराठी (Marathi)",
+      "nativeName": "मराठी"
+    },
+    {
+      "code": "gu",
+      "name": "गुजराती (Gujarati)",
+      "nativeName": "ગુજરાતી"
+    },
+    {
+      "code": "ta",
+      "name": "Tamil",
+      "nativeName": "தமிழ்"
+    },
+    {
+      "code": "te",
+      "name": "Telugu",
+      "nativeName": "తెలుగు"
+    },
+    {
+      "code": "kn",
+      "name": "Kannada",
+      "nativeName": "ಕನ್ನಡ"
+    },
+    {
+      "code": "ml",
+      "name": "Malayalam",
+      "nativeName": "മലയാളം"
+    },
+    {
+      "code": "pa",
+      "name": "Punjabi",
+      "nativeName": "ਪੰਜਾਬੀ"
+    },
+    {
+      "code": "es",
+      "name": "Español (Spanish)",
+      "nativeName": "Español"
+    },
+    {
+      "code": "fr",
+      "name": "Français (French)",
+      "nativeName": "Français"
+    },
+    {
+      "code": "de",
+      "name": "Deutsch (German)",
+      "nativeName": "Deutsch"
+    },
+    {
+      "code": "zh",
+      "name": "中文 (Chinese)",
+      "nativeName": "中文"
+    },
+    {
+      "code": "ja",
+      "name": "日本語 (Japanese)",
+      "nativeName": "日本語"
+    },
+    {
+      "code": "ar",
+      "name": "العربية (Arabic)",
+      "nativeName": "العربية"
+    },
+    {
+      "code": "ru",
+      "name": "Русский (Russian)",
+      "nativeName": "Русский"
+    },
+    {
+      "code": "pt",
+      "name": "Português (Portuguese)",
+      "nativeName": "Português"
+    },
+    {
+      "code": "it",
+      "name": "Italiano (Italian)",
+      "nativeName": "Italiano"
+    }
+  ]
+}
